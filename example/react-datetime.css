@@ -179,6 +179,8 @@ td.rdtYear:hover {
 
 .rdtCounter {
   width: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .rdtCounterSeparator {
@@ -202,8 +204,12 @@ td.rdtYear:hover {
   background: #eee;
 }
 .rdtCounter .rdtCount {
-  height: 20%;
+  height: 20px;
   font-size: 1.2em;
+  border: none;
+  width: 40px;
+  padding: 0;
+  text-align: center;
 }
 
 .rdtMilli {
